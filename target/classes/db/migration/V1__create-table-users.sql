@@ -1,0 +1,8 @@
+CREATE TABLE usuarios (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    nombre VARCHAR(30) NOT NULL,
+    email VARCHAR(60) NOT NULL UNIQUE,
+    clave VARCHAR(200) NOT NULL,
+
+    PRIMARY KEY (id)
+);
